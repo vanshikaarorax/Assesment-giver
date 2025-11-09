@@ -15,8 +15,8 @@ newspaper3k==0.2.8          # For JD URL text extraction
 requests==2.31.0
 
 # Utilities
-pydantic==2.6.1             # Data validation
-pydantic-core==2.16.1       # Core dependency (explicitly pinned for cloud build)
+pydantic==2.6.1
+pydantic-core==2.16.2     # Core dependency (explicitly pinned for cloud build)
 tqdm==4.66.1                # Progress bars for scraping
 numpy==1.26.3               # For embeddings
 python-dotenv==1.0.0        # For API keys (`.env`)
